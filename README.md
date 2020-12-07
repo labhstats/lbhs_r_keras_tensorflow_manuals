@@ -15,12 +15,13 @@ To be continued as I have time.
 ## Installation of Keras with Tensorflow GPU [Bottom to top instructions]
 
 Keras:
-https://cran.r-project.org/web/packages/keras/vignettes/index.html
-https://keras.rstudio.com/reference/install_keras.html (Better)
+- https://cran.r-project.org/web/packages/keras/vignettes/index.html
+- https://keras.rstudio.com/reference/install_keras.html (Better)
 
 Tensorflow: (Backend to Keras)
-https://tensorflow.rstudio.com/installation/
-https://www.tensorflow.org/install/gpu#hardware_requirements
+- https://tensorflow.rstudio.com/installation/
+- https://www.tensorflow.org/install/gpu#hardware_requirements
+
 Software requirements (Tensorflow)
 The following NVIDIA® software must be installed on your system:
 NVIDIA® GPU drivers —CUDA® 10.1 requires 418.x or higher.
@@ -28,17 +29,16 @@ CUDA® Toolkit —TensorFlow supports CUDA® 10.1 (TensorFlow >= 2.1.0)
 CUPTI ships with the CUDA® Toolkit.
 cuDNN SDK 7.6 (see cuDNN versions).
 (Optional) TensorRT 6.0 to improve latency and throughput for inference on some models.
-Windows installs:
 
 Anaconda: (Python 3 for Tensorflow; before running 'install_keras(tensorflow = "gpu")'.)
 https://www.anaconda.com/products/individual
 
-cuDNN:
+cuDNN: [Remember to select v7.6, preferably with a date more recent than the CUDA toolkit for compatibility]
 - https://developer.nvidia.com/cudnn
 - https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html#install-windows 
 - https://towardsdatascience.com/installing-tensorflow-with-cuda-cudnn-and-gpu-support-on-windows-10-60693e46e781 [Better guide; remember to put library files from cuDNN zip into CUDA]
 
-CUDA Toolkit all versions: (Installer)
+CUDA Toolkit all versions: (Installer) [Local version have better chance of not failing for no reason]
 - https://developer.nvidia.com/cuda-toolkit-archive
 - https://docs.nvidia.com/cuda/archive/10.1/cuda-installation-guide-microsoft-windows/index.html [10.1 specifically]
 - https://docs.nvidia.com/deploy/cuda-compatibility/index.html 

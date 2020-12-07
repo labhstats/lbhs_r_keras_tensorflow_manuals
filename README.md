@@ -24,7 +24,7 @@ Tensorflow: (Backend to Keras)
 
 Software requirements (Tensorflow)
 The following NVIDIA® software must be installed on your system:
-- NVIDIA® GPU drivers —CUDA® 10.1 requires 418.x or higher.
+- NVIDIA® GPU drivers —CUDA® 10.1 requires 418.x or higher. [Avoid default CUDA Toolkit installer if your driver is newer]
 - CUDA® Toolkit —TensorFlow supports CUDA® 10.1 (TensorFlow >= 2.1.0)
 - CUPTI ships with the CUDA® Toolkit. [Make sure it does not fail during the CUDA Toolkit installer]
 - cuDNN SDK 7.6 (see cuDNN versions).
